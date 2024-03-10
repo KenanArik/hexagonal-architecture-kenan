@@ -15,18 +15,6 @@ public class BankAccount {
     }
 
 
-    public BankAccount withdraw(BigDecimal amount) {
-        if(balance.compareTo(amount) < 0) {
-            throw new InsufficientBalanceException("Insufficient balance for withdrawal.");
-        }
-
-        return new BankAccount(id, balance.subtract(amount));
-    }
-
-    public void deposit(BigDecimal amount) {
-        balance = balance.add(amount);
-    }
-
     public Integer getId(){
         return this.id;
     }

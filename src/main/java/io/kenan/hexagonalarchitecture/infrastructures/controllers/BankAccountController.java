@@ -1,14 +1,11 @@
-package io.kenan.hexagonalarchitecture.adapters.controllers;
+package io.kenan.hexagonalarchitecture.infrastructures.controllers;
 
 import io.kenan.hexagonalarchitecture.application.domain.BankAccount;
-import io.kenan.hexagonalarchitecture.application.port.incoming.DepositUseCase;
-import io.kenan.hexagonalarchitecture.application.port.incoming.WithdrawUseCase;
 import io.kenan.hexagonalarchitecture.application.services.BankAccountService;
 import org.springframework.http.ResponseEntity;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigDecimal;
-import java.util.UUID;
 
 import static org.springframework.http.ResponseEntity.ok;
 

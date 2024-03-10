@@ -1,4 +1,4 @@
-package io.kenan.hexagonalarchitecture.adapters.configuration.transactional;
+package io.kenan.hexagonalarchitecture.infrastructures.configuration.transactional;
 
 import io.kenan.hexagonalarchitecture.application.ddd.DomainService;
 import org.aspectj.lang.ProceedingJoinPoint;

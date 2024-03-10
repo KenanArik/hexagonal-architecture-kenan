@@ -1,4 +1,4 @@
-package io.kenan.hexagonalarchitecture.adapters.persistence.entities;
+package io.kenan.hexagonalarchitecture.infrastructures.persistence.entities;
 
 
 import io.kenan.hexagonalarchitecture.application.domain.BankAccount;

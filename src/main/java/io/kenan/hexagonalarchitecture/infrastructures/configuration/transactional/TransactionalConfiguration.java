@@ -1,4 +1,4 @@
-package io.kenan.hexagonalarchitecture.adapters.configuration.transactional;
+package io.kenan.hexagonalarchitecture.infrastructures.configuration.transactional;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

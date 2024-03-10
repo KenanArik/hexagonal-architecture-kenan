@@ -1,4 +1,4 @@
-package io.kenan.hexagonalarchitecture.adapters.controllers;
+package io.kenan.hexagonalarchitecture.infrastructures.controllers;
 
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

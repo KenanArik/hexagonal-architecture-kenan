@@ -1,6 +1,6 @@
-package io.kenan.hexagonalarchitecture.adapters.persistence.mappers;
+package io.kenan.hexagonalarchitecture.infrastructures.persistence.mappers;
 
-import io.kenan.hexagonalarchitecture.adapters.persistence.entities.BankAccountEntity;
+import io.kenan.hexagonalarchitecture.infrastructures.persistence.entities.BankAccountEntity;
 import io.kenan.hexagonalarchitecture.application.domain.BankAccount;
 import org.mapstruct.Mapper;
 import org.mapstruct.factory.Mappers;

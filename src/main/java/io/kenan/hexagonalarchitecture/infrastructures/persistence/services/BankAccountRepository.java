@@ -1,12 +1,10 @@
-package io.kenan.hexagonalarchitecture.adapters.persistence.services;
+package io.kenan.hexagonalarchitecture.infrastructures.persistence.services;
 
-import io.kenan.hexagonalarchitecture.adapters.persistence.entities.BankAccountEntity;
-import io.kenan.hexagonalarchitecture.adapters.persistence.mappers.BankAccountMapper;
-import io.kenan.hexagonalarchitecture.adapters.persistence.repositories.BankAccountJpaRepository;
+import io.kenan.hexagonalarchitecture.infrastructures.persistence.entities.BankAccountEntity;
+import io.kenan.hexagonalarchitecture.infrastructures.persistence.mappers.BankAccountMapper;
+import io.kenan.hexagonalarchitecture.infrastructures.persistence.repositories.BankAccountJpaRepository;
 import io.kenan.hexagonalarchitecture.application.domain.BankAccount;
 import io.kenan.hexagonalarchitecture.application.port.outgoing.BankAccountPort;
-import io.kenan.hexagonalarchitecture.application.port.outgoing.LoadAccountPort;
-import io.kenan.hexagonalarchitecture.application.port.outgoing.SaveAccountPort;
 import org.springframework.stereotype.Component;
 
 import java.util.Optional;

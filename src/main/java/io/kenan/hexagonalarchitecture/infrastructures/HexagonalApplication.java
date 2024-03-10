@@ -1,4 +1,4 @@
-package io.kenan.hexagonalarchitecture.adapters;
+package io.kenan.hexagonalarchitecture.infrastructures;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

@@ -1,11 +1,9 @@
-package io.kenan.hexagonalarchitecture.adapters;
+package io.kenan.hexagonalarchitecture.infrastructures;
 
 import io.kenan.hexagonalarchitecture.application.domain.BankAccount;
-import io.kenan.hexagonalarchitecture.application.exceptions.InsufficientBalanceException;
 import io.kenan.hexagonalarchitecture.application.parameterResolvers.BankAccountServiceParameterResolver;
 import io.kenan.hexagonalarchitecture.application.port.outgoing.BankAccountPort;
 import io.kenan.hexagonalarchitecture.application.services.BankAccountService;
-import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.junit.jupiter.api.extension.ExtendWith;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,8 +12,6 @@ import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.boot.test.mock.mockito.SpyBean;
 import org.springframework.http.MediaType;
 import org.springframework.test.web.servlet.MockMvc;
-import org.springframework.test.web.servlet.ResultMatcher;
-import org.springframework.test.web.servlet.request.MockMvcRequestBuilders;
 
 import java.math.BigDecimal;
 
